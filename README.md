@@ -72,5 +72,5 @@ You are free to use, modify, and distribute this project.
 
 ## 👨‍💻 Author
 
-**Sachin Pandey**  
+**Sachin Kumar**  
 _“I believe good work shouldn't scream — it should resonate.”_
