@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productivity Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="dashboard-header">
+      <h1>📊 Productivity Dashboard</h1>
+      <div class="filters">
+        <label for="filter">Filter by:</label>
+        <select id="filter">
+          <option value="all">All Time</option>
+          <option value="today">Today Only</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="main-sections">
+      <div class="section">
+        <h2>⏱ Time Spent Logs</h2>
+        <ul id="log-list"></ul>
+      </div>
+
+      <div class="section">
+        <h2>📊 Visual Chart</h2>
+        <canvas id="usageChart" width="400" height="300"></canvas>
+      </div>
+
+      <div class="section" id="summary">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
