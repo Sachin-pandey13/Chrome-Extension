@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Productivity Tracker",
+  "description": "Tracks time spent on websites and provides productivity insights.",
+  "version": "1.0",
+  "permissions": ["tabs", "storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
